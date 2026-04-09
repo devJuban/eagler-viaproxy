@@ -1,0 +1,34 @@
+[16:55:26] [main/INFO] (ViaProxy) Initializing ViaProxy GUI v3.4.10 (git-ViaProxy-3.4.10:5a4ce9c) (Injected using Launcher Agent)...
+[16:55:26] [main/INFO] (ViaProxy) Using java version: OpenJDK 64-Bit Server VM 25.0.1 (Eclipse Adoptium) on Windows 11
+[16:55:26] [main/INFO] (ViaProxy) Available memory (bytes): 3573547008
+[16:55:26] [main/INFO] (ViaProxy) Working directory: C:\Users\Juban\Desktop\dev\viaproxy-eagler
+[16:55:27] [main/INFO] (ViaProxy) Console input is not available. CLI commands are disabled.
+[16:55:27] [main/INFO] (ViaProxy) Loaded plugin 'ViaProxyEagUtils' by ayunami2000 (v1.0)
+[16:55:27] [main/INFO] (ViaProxy) Loaded plugin 'MiniConnect' by Lenni0451 (v1.0.0-SNAPSHOT)
+[16:55:27] [main/INFO] (ViaProxy) Loaded plugin 'TuffXViaProxy' by Tuff (v1.0)
+[16:55:27] [main/INFO] (ViaProxy) Enabled plugin 'ViaProxyEagUtils'
+[16:55:28] [main/INFO] (ViaProxy) Enabled plugin 'MiniConnect'
+[16:55:28] [main/INFO] (ViaProxy) Enabled plugin 'TuffXViaProxy'
+[16:55:28] [main/INFO] (LoggerPrintStream) [STDERR]: [ERROR] Failed to migrate old ViaLoader configs
+[16:55:28] [main/INFO] (LoggerPrintStream) [STDERR]: org.apache.commons.io.FileExistsException: File element in parameter 'destFile' already exists: 'C:\Users\Juban\Desktop\dev\viaproxy-eagler\vpeagutils.yml'
+[16:55:28] [main/INFO] (LoggerPrintStream) [STDERR]: 	at org.apache.commons.io.FileUtils.requireAbsent(FileUtils.java:2857)
+[16:55:28] [main/INFO] (LoggerPrintStream) [STDERR]: 	at org.apache.commons.io.FileUtils.moveFile(FileUtils.java:2571)
+[16:55:28] [main/INFO] (LoggerPrintStream) [STDERR]: 	at org.apache.commons.io.FileUtils.moveFile(FileUtils.java:2549)
+[16:55:28] [main/INFO] (LoggerPrintStream) [STDERR]: 	at org.apache.commons.io.FileUtils.moveFileToDirectory(FileUtils.java:2609)
+[16:55:28] [main/INFO] (LoggerPrintStream) [STDERR]: 	at org.apache.commons.io.FileUtils.moveToDirectory(FileUtils.java:2637)
+[16:55:28] [main/INFO] (LoggerPrintStream) [STDERR]: 	at net.raphimc.viaproxy.protocoltranslator.ProtocolTranslator.moveConfigs(ProtocolTranslator.java:88)
+[16:55:28] [main/INFO] (LoggerPrintStream) [STDERR]: 	at net.raphimc.viaproxy.protocoltranslator.ProtocolTranslator.init(ProtocolTranslator.java:68)
+[16:55:28] [main/INFO] (LoggerPrintStream) [STDERR]: 	at net.raphimc.viaproxy.ViaProxy.injectedMain(ViaProxy.java:219)
+[16:55:28] [main/INFO] (LoggerPrintStream) [STDERR]: 	at net.raphimc.viaproxy.ViaProxy.main(ViaProxy.java:102)
+[16:55:28] [Via-Mappingloader-1/INFO] (ViaVersion) Loading block connection mappings ...
+[16:55:29] [main/INFO] (ViaBackwards) Loading translations...
+[16:55:29] [main/INFO] (ViaBackwards) Registering protocols...
+[16:55:29] [main/INFO] (ViaRewind) Registering protocols...
+[16:55:30] [main/INFO] (ViaBedrock) Started resource pack HTTP server on http://127.0.0.1:53854/
+[16:55:30] [main/INFO] (ViaVersion) ViaVersion detected lowest supported version by the proxy: 1.7.2-1.7.5 (4)
+[16:55:30] [main/INFO] (ViaVersion) Highest supported version by the proxy: 26.1 (775)
+[16:55:30] [Via Async Task 1/WARN] (ViaVersion) There is a newer plugin version available: 5.8.1, you're on: 5.8.0
+[16:55:31] [Via Async Scheduler 0/INFO] (ViaVersion) Finished mapping loading, shutting down loader executor.
+[16:55:31] [main/INFO] (ViaProxy) ViaProxy started successfully!
+[16:55:33] [Thread-0/INFO] (ViaProxy) Disabled plugin 'ViaProxyEagUtils'
+[16:55:33] [Thread-0/INFO] (ViaProxy) Disabled plugin 'MiniConnect'
