@@ -8,4 +8,4 @@ eagler-voice: false
 # 0 - Default (non-Eaglercraft)
 # 1 - Force non-secure (ws)
 # 2 - Force secure (wss)
-eagler-server-mode: 3
+eagler-server-mode: 0
