@@ -1,2 +1,2 @@
 #!/bin/bash
-java -jar ViaProxy*.jar cli 
+java -Xmx500M -Xms500M -jar ViaProxy*.jar cli 
